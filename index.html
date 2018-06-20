@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+    <head>
+        
+  
+        <link href="https://fonts.googleapis.com/css?family=Playball|Poppins|Roboto|Seaweed+Script" rel="stylesheet">    
+        <link rel="stylesheet" href="assets/css/reset.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            
+    </head>
+    <body>
+        <div id="Top">
+            <div id="Header">
+                <!-- <img id="logo" src="assets/images/hangmanWorld.png"> -->
+                CrystalsCollector!
+            </div>
+        </div>
+        
+        <div id="instructions">
+            <p>You will be given a random number at the start of the game. <br><br>
+            There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score <br><br>
+            You win the game by matching your total score to random number, you lose the game if your total score goes above the random number. <br><br>
+            The value of each crystal is hidden from you until you click on it. <br><br>
+            Each time when the game starts, the game will change the values of each crystal.
+            </p>
+        </div>
+        <div id="guessScore">
+
+        </div>
+        <div id="winsLosses">
+            <br>
+            <p id="result"></p>
+            <br>
+            <p>Wins: <span id="winCount"></span></p>
+            <p>Losses: <span id="lossCount"></span></p>
+            
+        </div>
+
+        <div id="buttons">
+        <button id="redCrystal" ><img src="assets/images/redcrystal.jfif" alt="Red Crystal"></button>
+        <button id="blueCrystal" ><img src="assets/images/bluecrystal.jfif" alt="Blue Crystal"></button>
+        <button id="yellowCrystal" ><img src="assets/images/yellowcrystal.jfif" alt="Yellow Crystal"></button>
+        <button id="greenCrystal" ><img src="assets/images/greencrystal.jfif" alt="Green Crystal"></button>
+        </div>
+        <div id="tScore">Your Total Score is: </div>
+        <div id="totalScore">
+
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="assets/javascript/game.js"></script>
+    </body>
+</html>

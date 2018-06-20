@@ -1,0 +1,68 @@
+img{
+    width: 60px;
+    height: 60px;
+}
+body{
+    padding: 10px;
+}
+button{
+    padding-top: 5px;
+}
+#Header{
+    font-size: 30px;
+    color: white;
+    background-color: orange;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+}
+#instructions{
+    background-color: rgb(250, 224, 202);
+    color: green;
+    margin-top: 10px;
+    width: 400px;
+    height: auto;
+    padding: 10px;
+}
+#guessScore{
+    height: 65px;
+    width: 200px;
+    background-color: rgb(69, 199, 155);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: left;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 15px;
+}
+#winsLosses{
+    height: 80px;
+    width: 80px;
+    background-color: aqua;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding-left: 5px;
+}
+#buttons{
+    clear: both;    
+}
+#tScore, #totalScore{
+    width: 200px;
+    height: 30px;
+    margin-top: 10px;
+    background-color: rgb(43, 124, 111);
+    color: white;   
+    padding-top: 10px;
+    padding-left: 3px;
+}
+#totalScore{
+    height: 65px;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 15px;
+}
